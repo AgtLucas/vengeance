@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4F871D1A921E2300910065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F871C1A921E2300910065 /* AppDelegate.swift */; };
+		DC4F871F1A921E2300910065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F871E1A921E2300910065 /* ViewController.swift */; };
+		DC4F87221A921E2300910065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4F87201A921E2300910065 /* Main.storyboard */; };
+		DC4F87241A921E2300910065 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4F87231A921E2300910065 /* Images.xcassets */; };
+		DC4F87271A921E2300910065 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4F87251A921E2300910065 /* LaunchScreen.xib */; };
+		DC4F87331A921E2300910065 /* vengeanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F87321A921E2300910065 /* vengeanceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4F872D1A921E2300910065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4F870F1A921E2300910065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4F87161A921E2300910065;
+			remoteInfo = vengeance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC4F87171A921E2300910065 /* vengeance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vengeance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4F871B1A921E2300910065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4F871C1A921E2300910065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC4F871E1A921E2300910065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC4F87211A921E2300910065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4F87231A921E2300910065 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC4F87261A921E2300910065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC4F872C1A921E2300910065 /* vengeanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vengeanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4F87311A921E2300910065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4F87321A921E2300910065 /* vengeanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vengeanceTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4F87141A921E2300910065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4F87291A921E2300910065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4F870E1A921E2300910065 = {
+			isa = PBXGroup;
+			children = (
+				DC4F87191A921E2300910065 /* vengeance */,
+				DC4F872F1A921E2300910065 /* vengeanceTests */,
+				DC4F87181A921E2300910065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4F87181A921E2300910065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F87171A921E2300910065 /* vengeance.app */,
+				DC4F872C1A921E2300910065 /* vengeanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4F87191A921E2300910065 /* vengeance */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F871C1A921E2300910065 /* AppDelegate.swift */,
+				DC4F871E1A921E2300910065 /* ViewController.swift */,
+				DC4F87201A921E2300910065 /* Main.storyboard */,
+				DC4F87231A921E2300910065 /* Images.xcassets */,
+				DC4F87251A921E2300910065 /* LaunchScreen.xib */,
+				DC4F871A1A921E2300910065 /* Supporting Files */,
+			);
+			path = vengeance;
+			sourceTree = "<group>";
+		};
+		DC4F871A1A921E2300910065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F871B1A921E2300910065 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4F872F1A921E2300910065 /* vengeanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F87321A921E2300910065 /* vengeanceTests.swift */,
+				DC4F87301A921E2300910065 /* Supporting Files */,
+			);
+			path = vengeanceTests;
+			sourceTree = "<group>";
+		};
+		DC4F87301A921E2300910065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F87311A921E2300910065 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4F87161A921E2300910065 /* vengeance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4F87361A921E2300910065 /* Build configuration list for PBXNativeTarget "vengeance" */;
+			buildPhases = (
+				DC4F87131A921E2300910065 /* Sources */,
+				DC4F87141A921E2300910065 /* Frameworks */,
+				DC4F87151A921E2300910065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vengeance;
+			productName = vengeance;
+			productReference = DC4F87171A921E2300910065 /* vengeance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4F872B1A921E2300910065 /* vengeanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4F87391A921E2300910065 /* Build configuration list for PBXNativeTarget "vengeanceTests" */;
+			buildPhases = (
+				DC4F87281A921E2300910065 /* Sources */,
+				DC4F87291A921E2300910065 /* Frameworks */,
+				DC4F872A1A921E2300910065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4F872E1A921E2300910065 /* PBXTargetDependency */,
+			);
+			name = vengeanceTests;
+			productName = vengeanceTests;
+			productReference = DC4F872C1A921E2300910065 /* vengeanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4F870F1A921E2300910065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AWLKA;
+				TargetAttributes = {
+					DC4F87161A921E2300910065 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DC4F872B1A921E2300910065 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DC4F87161A921E2300910065;
+					};
+				};
+			};
+			buildConfigurationList = DC4F87121A921E2300910065 /* Build configuration list for PBXProject "vengeance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4F870E1A921E2300910065;
+			productRefGroup = DC4F87181A921E2300910065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4F87161A921E2300910065 /* vengeance */,
+				DC4F872B1A921E2300910065 /* vengeanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4F87151A921E2300910065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4F87221A921E2300910065 /* Main.storyboard in Resources */,
+				DC4F87271A921E2300910065 /* LaunchScreen.xib in Resources */,
+				DC4F87241A921E2300910065 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4F872A1A921E2300910065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4F87131A921E2300910065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4F871F1A921E2300910065 /* ViewController.swift in Sources */,
+				DC4F871D1A921E2300910065 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4F87281A921E2300910065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4F87331A921E2300910065 /* vengeanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4F872E1A921E2300910065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4F87161A921E2300910065 /* vengeance */;
+			targetProxy = DC4F872D1A921E2300910065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4F87201A921E2300910065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4F87211A921E2300910065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4F87251A921E2300910065 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4F87261A921E2300910065 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4F87341A921E2300910065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC4F87351A921E2300910065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4F87371A921E2300910065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vengeance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC4F87381A921E2300910065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vengeance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC4F873A1A921E2300910065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = vengeanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vengeance.app/vengeance";
+			};
+			name = Debug;
+		};
+		DC4F873B1A921E2300910065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = vengeanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vengeance.app/vengeance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4F87121A921E2300910065 /* Build configuration list for PBXProject "vengeance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4F87341A921E2300910065 /* Debug */,
+				DC4F87351A921E2300910065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4F87361A921E2300910065 /* Build configuration list for PBXNativeTarget "vengeance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4F87371A921E2300910065 /* Debug */,
+				DC4F87381A921E2300910065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC4F87391A921E2300910065 /* Build configuration list for PBXNativeTarget "vengeanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4F873A1A921E2300910065 /* Debug */,
+				DC4F873B1A921E2300910065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4F870F1A921E2300910065 /* Project object */;
+}
