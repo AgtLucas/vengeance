@@ -21,7 +21,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func theButton(sender: UIButton) {
-        println("Yo!")
+        let kilo = NSNumber.mass_kilogram(2)()
+        let pounds = NSNumber.mass_pound(10)()
+        let result = kilo.add(pounds)
+        println(result)
     }
 
 }
