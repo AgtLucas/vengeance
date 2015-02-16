@@ -2,7 +2,7 @@
 platform :ios, '8.0'
 
 target 'vengeance' do
-
+    pod 'FlatUIKit'
 end
 
 target 'vengeanceTests' do
