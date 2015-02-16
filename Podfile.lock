@@ -1,10 +1,16 @@
 PODS:
   - FlatUIKit (1.6)
+  - MKFoundationKit/NSNumber (1.2.3)
+  - MKUnits (2.0.0):
+    - MKFoundationKit/NSNumber (~> 1.2.0)
 
 DEPENDENCIES:
   - FlatUIKit
+  - MKUnits (~> 2.0.0)
 
 SPEC CHECKSUMS:
   FlatUIKit: 48b78e6d026c2f2c8a733425aaa5015c99ffc079
+  MKFoundationKit: 4858fe474ee45f988db5ff1e229d700743e71ed8
+  MKUnits: 98ce0a22eb9ed16b9ff1685a28ddeca517127033
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.0.beta.2
