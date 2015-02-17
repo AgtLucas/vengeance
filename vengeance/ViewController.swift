@@ -11,10 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     var b :UIButton!
+    var alert = SweetAlert()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor(red: 242.0/255.0, green: 244.0/255.0, blue: 246.0/255.0, alpha: 1.0)
 
     }
 
