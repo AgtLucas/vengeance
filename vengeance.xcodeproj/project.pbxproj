@@ -42,7 +42,6 @@
 		DC4F872C1A921E2300910065 /* vengeanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vengeanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4F87311A921E2300910065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4F87321A921E2300910065 /* vengeanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vengeanceTests.swift; sourceTree = "<group>"; };
-		DCE8345A1A925E7700F4A328 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +105,6 @@
 			children = (
 				DC4F871C1A921E2300910065 /* AppDelegate.swift */,
 				DC4F871E1A921E2300910065 /* ViewController.swift */,
-				DCE8345A1A925E7700F4A328 /* Header.h */,
 				DC0F0AA21A92CB3600D6FC24 /* SweetAlert.swift */,
 				DC4F87201A921E2300910065 /* Main.storyboard */,
 				DC4F87231A921E2300910065 /* Images.xcassets */,
